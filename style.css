@@ -20,7 +20,7 @@
     display:flex;
     justify-content:left;
     align-items:center;
-    padding-left:2;
+    padding-left:20px;
 }
 .name h2{
     height:30px;
@@ -54,8 +54,8 @@
     /* border:1px solid red; */
 }
 .get-app{
-    height:2;
-    width:80px;
+    height:20px;
+    width:70px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -116,7 +116,6 @@
     height:2290px;
     width:100%;
     display:flex;
-    /* justify-content:center; */
     align-items:center;
     flex-direction:column;
     border:1px solid green;
@@ -184,8 +183,8 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    border:1px solid red;
-    background-color:black;
+    /* border:1px solid red; */
+    background-color:#061518;
 }
 .icons{
     height:40px;
@@ -193,9 +192,15 @@
     display: flex;
     justify-content:space-evenly;
     align-items:center;
-    /* border:2px solid red; */
+    border:2px solid red;
 }
-.icons{
+.icons i{   
     font-size:25px;
     color:white;
+}
+.blogs-box{
+    height:40px;
+    width:300px;
+
+    border:2px solid red;
 }
